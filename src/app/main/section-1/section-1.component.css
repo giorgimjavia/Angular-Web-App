@@ -1,0 +1,71 @@
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.right-div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.first-image {
+    top: 100px;
+    right: 300px;
+}
+
+.second-image {
+    top: 220px;
+    right: 60px;
+}
+
+.third-image {
+    top: 350px;
+    right: 350px;
+}
+
+.button-div {
+    display: flex;
+    gap: 10px; 
+  }
+
+  .btn-blue {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-blue:hover {
+    background-color: #007bff;
+  }
+
+  .btn-white {
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-white:hover {
+    background-color: #007bff;
+    color: white;
+  }
