@@ -1,10 +1,12 @@
-# Treat all source code files as TypeScript
+# Count TypeScript normally (this is the priority)
 *.ts linguist-language=TypeScript
-*.html linguist-language=TypeScript
-*.css linguist-language=TypeScript
-*.scss linguist-language=TypeScript
 
-# Still exclude non-code stuff
+# Count HTML and CSS normally too (but TypeScript will still dominate if you have more .ts files)
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.scss linguist-language=SCSS
+
+# Exclude docs, generated files, dependencies to keep stats clean
 *.md linguist-documentation
 *.json linguist-generated
 dist/** linguist-generated
